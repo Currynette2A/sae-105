@@ -6,20 +6,19 @@
   background-color: #CD6155;
   color: white;
   text-decoration: none;
-  border-radius: 30px;
 }
 
 .Menu:hover {
   background-color: #922B21;
   border-color: #922B21;
   text-decoration: none;
-  border-radius: 30px;
 }
 
 header {
   background-color: inherit;
-  border: 5px solid white;
+  border: 5px solid inherit;
   color: white;
+  padding: 20px;
   text-shadow: #FC0 1px 0 10px;
 }
 
@@ -31,7 +30,6 @@ body {
 .TexteContact {
   border: 5px solid black;
   background-color: #F7C3A6;
-  border-radius: 30px;
   padding: 10px;
 }
 
@@ -42,13 +40,19 @@ body {
 .Contact_Mail_Tel {
   border: 5px solid black;
   background-color: #F7C3A6;
-  border-radius: 30px;
   padding: 10px;
 }
 
 .Réseaux {
   border: 5px solid black;
   background-color: #F7C3A6;
-  border-radius: 30px;
   padding: 10px;
+}
+
+@media screen end {
+  max-width: 950px;
+}
+
+footer {
+  color: white;
 }
