@@ -56,3 +56,8 @@ body {
 footer {
   color: white;
 }
+
+.sous_titre {
+  font-size: x-large;
+  font-weight: bold;
+}
